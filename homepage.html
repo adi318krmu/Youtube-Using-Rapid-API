@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapid Youtube</title>
+    <link rel="stylesheet" href="./homePage.css">
+    <!-- page1.html -->
+<!-- <iframe src="./history/index.html" width="600" height="400"></iframe> -->
+</head>
+
+<body>
+    <div class="layout-container">
+        <header>
+            <div class="search-container">
+                <input type="text" name="search-box" onkeyup="handleAutoSuggest(event)" id="search-text-input">
+                <button onClick="handleSearch()">Search</button>
+                <div id="search-suggestions-container"></div>
+            </div>
+        </header>
+        <aside></aside>
+        <div id="root"></div>
+    </div>
+    <script src="./homePage.js"></script>
+</body>
+
+</html>
